@@ -28,7 +28,7 @@ li{
     .container{
         display: flex;
     }
-    .container-header, p{
+    .container-header, p {
         display: none;
     }
     ul{
