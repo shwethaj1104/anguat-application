@@ -1,3 +1,16 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+li{
+    color: white;
+    list-style: none;
+}
 .container-header{
     display: flex;
     align-items: center;
@@ -10,4 +23,16 @@
 .container-message{
     margin: 0.5rem;
     color: #ef9d07;
+}
+@media screen and (max-width:456px) {
+    .container{
+        display: flex;
+    }
+    .container-header, p{
+        display: none;
+    }
+    ul{
+        display:flex;
+        flex-direction:column
+    }
 }
