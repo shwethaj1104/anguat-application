@@ -1,2 +1,14 @@
 @import "~ag-grid-community/dist/styles/ag-grid.css";
 @import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0.1rem;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.ag-theme-balham{
+    font-size: 15px !important;
+}
+

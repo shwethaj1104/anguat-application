@@ -1,0 +1,13 @@
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6868d9de;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+.container-message{
+    margin: 0.5rem;
+    color: #ef9d07;
+}

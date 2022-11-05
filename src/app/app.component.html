@@ -1,4 +1,13 @@
-<ag-grid-angular style="width: 99%; height: 20rem;padding: 0.5rem;" class="ag-theme-alpine ag-theme-balham"
-[columnDefs]="columnDefs" [defaultColDef]="defaultColDef" [rowData]="rowData" 
-[animateRows]="true"  [pagination]="true"
-[paginationAutoPageSize]="true"></ag-grid-angular>
+<div class="container">
+  <header class="container-header">
+    <h2>Customer Detail Table</h2>    
+  </header>
+  <p class="container-message">Click on column header to sort!</p>
+  <div class="container-data">
+    <ag-grid-angular style="width: 99%; height: 20rem;padding: 0.5rem;" class="ag-theme-alpine ag-theme-balham"
+    [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" [rowData]="rowData" 
+    [animateRows]="true"  [pagination]="true"
+    [paginationAutoPageSize]="true"></ag-grid-angular>
+  </div>
+</div>
+

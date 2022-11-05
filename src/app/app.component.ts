@@ -14,19 +14,22 @@ export class AppComponent implements OnInit{
   public columnDefs: any;
   constructor(){}
   ngOnInit(){
+
     this.columnDefs = [
-      { headerName: 'SI No', field: 'orderId', flex:1},
+      { headerName: 'SI No', field: 'orderId'},
       { headerName: 'Ordered By', field: 'orderedBy'},
       { headerName: 'Account Type', field: 'account'},
       { headerName: 'Order Date', field: 'orderDate' },
       { headerName: 'Order Total', field: 'orderTotal' },
     ]
+
     this.defaultColDef = {
       sortable: true,
-      minWidth: 100,
       resizable: true,
+      flex:1,
+      filter:true
     };
-    console.log(getData)
+
     this.rowData=getData
   }
 }
