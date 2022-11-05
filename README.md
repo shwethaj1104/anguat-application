@@ -2,4 +2,9 @@
 
 User will be able to filter or sort the column data.
 
-![image](https://user-images.githubusercontent.com/107784718/200109354-1d2a494d-d007-4cf5-8438-b10892190d8c.png)
+![image](https://user-images.githubusercontent.com/107784718/200109979-7eb39290-4094-4f20-8787-6a7d9526a9de.png)
+
+when viewed on phone enu will be collapsed to column
+
+![image](https://user-images.githubusercontent.com/107784718/200110025-4f7d842d-51ad-4256-9c0c-213d459cf397.png)
+
