@@ -37,10 +37,7 @@ export class AppComponent implements OnInit {
   showSidebar() {
     this.showSideBar = true
     const ele = document.querySelector<HTMLElement>(".container-header")!;
-    if (ele.style.display === "none") {
-      ele.style.display = "block"
-    } else {
-      ele.style.display = "none"
-    }
+    if (ele.style.display === "none") {ele.style.display = "block"} 
+    else {ele.style.display = "none"}
   }
 }
