@@ -59,7 +59,8 @@ h2 {
     button {
         display: block;
     }
-    button:hover{
-    background: #9c9ce6de;
+
+    button:hover {
+        background: #9c9ce6de;
     }
 }
