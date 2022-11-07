@@ -1,19 +1,22 @@
+<button (click)="showSidebar()">>></button>
 <div class="container">
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
   <header class="container-header">
-    <h2>Customer Detail Table</h2>  
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
   </header>
-  <p class="container-message">Click on column header to sort!</p>
-  <div class="container-data">
-    <ag-grid-angular style="width: 99%; height: 20rem;padding: 0.5rem;" class="ag-theme-alpine ag-theme-balham"
-    [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" [rowData]="rowData" 
-    [animateRows]="true"  [pagination]="true"
-    [paginationAutoPageSize]="true"></ag-grid-angular>
+  <div>
+    <h2>Customer Detail Table</h2>  <hr>
+    <p class="container-message">Click on column header to sort!</p>
+    <div class="container-data">
+      <ag-grid-angular style="width: 99%; height: 20rem;padding: 0.5rem;" class="ag-theme-alpine ag-theme-balham"
+      [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" [rowData]="rowData" 
+      [animateRows]="true"  [pagination]="true"
+      [paginationAutoPageSize]="true"></ag-grid-angular>
+    </div>
   </div>
 </div>
 

@@ -12,6 +12,7 @@ export class AppComponent implements OnInit{
   rowData: any = [];
   public defaultColDef: any;
   public columnDefs: any;
+  showSideBar: boolean=false;
   constructor(){}
   ngOnInit(){
 
@@ -31,5 +32,15 @@ export class AppComponent implements OnInit{
     };
 
     this.rowData=getData
+
+  }
+  showSidebar(){
+    this.showSideBar=true
+    const ele = document.querySelector<HTMLElement>(".container-header")!;
+    if(ele.style.display==="none"){
+      ele.style.display="block"
+    }else{
+      ele.style.display="none"
+    }
   }
 }

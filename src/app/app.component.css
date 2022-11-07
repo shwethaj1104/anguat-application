@@ -3,13 +3,14 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
     border-radius: 1rem;
     padding: 0.2rem;
+    list-style: none !important;
 }
-li{
-    color: white;
-    list-style: none;
+a{
+    color: white !important;
+    text-decoration: none !important;
 }
 .container-header{
     display: flex;
@@ -24,15 +25,30 @@ li{
     margin: 0.5rem;
     color: #ef9d07;
 }
+button{
+    display: none;
+    background: #6868d9de;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media screen and (max-width:456px) {
     .container{
         display: flex;
     }
-    .container-header, p {
-        display: none;
-    }
     ul{
         display:flex;
         flex-direction:column
+    }
+    button{
+        display: block;
     }
 }
