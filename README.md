@@ -1,4 +1,4 @@
-# Customer data table:
+# Customer data table :
 
 User will be able to filter or sort the column data.
 
