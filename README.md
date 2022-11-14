@@ -1,6 +1,6 @@
 # Customer data table
 
-User will be able to filter or sort the column data.
+User will be able to filter or Sort the column data.
 
 ![image](https://user-images.githubusercontent.com/107784718/200254647-9801eec0-66ee-4229-9c8d-1c2d00632c39.png)
 
